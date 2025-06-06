@@ -1,0 +1,34 @@
+Hướng Dẫn Cấu Hình Tài Khoản
+
+Nhập thông tin tài khoản vào file config có sẵn khi đã giải nén ra theo định dạng sau:
+Tài khoản: test123
+Mật khẩu: test321
+
+Bạn cần nhập như sau trong file:
+
+test123
+test321
+
+Thêm nhiều tài khoản (nếu cần):
+Để nhập nhiều tài khoản, hãy làm như sau:
+
+test123
+test321
+test123456
+test654321
+
+Sau đó lưu file cấu hình lại để hoàn tất.
+
+⚠️ Lưu ý quan trọng ⚠️
+Tránh nhập dư khoảng trắng hoặc ký tự thừa!
+Ví dụ:
+
+(test123  
+ test321  
+ <------ đây là khoản trắng dư / gọi khác là xuống dòng cần xoá bỏ
+)  
+
+Sai: Các ký tự thừa như ( ) hoặc dòng trống sẽ làm file cấu hình bị lỗi.
+Điền thông tin cẩn thận để đảm bảo hoạt động chính xác.
+
+💡 Hãy kiểm tra kỹ trước khi lưu để tránh lỗi cấu hình.
