@@ -1,85 +1,142 @@
-# Auto Login 2SGamer
 
-Auto Login – Các Bản Cập Nhật
-========================================
+# 🚀 2SGamer Auto Login 3.5
 
-🚀 Phiên bản 3.4 – 23/12/2024, 11:14 PM
-----------------------------------------
-🔧 Cập nhật mới:
-- Giao diện:
-  - Thêm lựa chọn liên kết 2SGamerQQ, hỗ trợ cả người dùng có hoặc không có liên kết này.
-- Auto Login cho 2SGamerQQ:
-  - Hỗ trợ tự động đăng nhập qua giao diện của 2SGamerQQ.
-- Tùy chỉnh thư mục 2SGamerQQ:
-  - Cho phép người dùng chỉnh sửa liên kết thư mục như 2SGamer truyền thống.
-  - Có thể xóa file cấu hình để thiết lập lại từ đầu.
-- Tính năng Hack Speed (Chỉ test không public):
-  - Thêm nút tăng/giảm tốc độ bằng phím ',' và '.' khi bật tính năng.
+**Auto Login 3.5** là phần mềm hỗ trợ người dùng đăng nhập nhanh vào game ZingSpeed thông qua launcher 2SGamer hoặc 2SGamerQQ.  
+Đây là phiên bản **chuyển hoàn toàn từ AutoIt sang Python**, với giao diện thân thiện và hiệu năng tốt hơn, cùng nhiều tính năng nâng cấp như auto login, hack speed, chỉnh FPS, dark mode và tự động cấu hình.
 
-📦 Phiên bản 3.3 – 20/12/2024, 10:21 PM
-----------------------------------------
-🔧 Tính năng cập nhật:
-- Đăng nhập:
-  - Tự động bỏ qua cập nhật game (hiệu quả tuỳ từng thời điểm).
-  - Tăng tốc quá trình đăng nhập và ẩn thông tin tài khoản để bảo mật.
-- Login 2 tài khoản:
-  - Bị admin fix – không còn sử dụng được.
-- Shop mới:
-  - Tham khảo các trang phục hiện có trong shop mới.
-  - Trở về shop cũ bằng cách xoá folder Userdata trong thư mục 2SGamer.
-- Bật nhiều Launcher:
-  - Dùng để login 2 tài khoản nhưng hiện chỉ mang tính "trang trí" do đã bị fix.
+> 📅 **Phát hành ngày:** 11/06/2025  
+> 🛠️ **Ngôn ngữ:** Python  
+> 🌙 **Dark Mode:** Hỗ trợ chuyển sáng/tối
 
-🧰 Phiên bản 3.2 – 01/12/2024, 2:30 AM
-----------------------------------------
-🔧 Sửa lỗi:
-- Chọn tài khoản:
-  - Sửa tính năng chỉnh FPS mà không cần nhập thêm UID.
+---
 
-🌙 Phiên bản 3.1 – 27/11/2024, 8:25 PM
-----------------------------------------
-🌟 Giao diện mới:
-- Dark Mode:
-  - Chuyển đổi sáng/tối tùy chỉnh qua file darkmode.txt (1 là tối, 0 là sáng).
-- Tính năng chọn tài khoản:
-  - Chỉnh sửa nhanh FPS.
-  - Xoá thư mục 2SGamer hoặc ZingSpeed nếu bị lỗi setting màn hình.
-- Shop Mới (Chế độ Trang Trí):
-  - Tạo giao diện shop mới đẹp hơn (không thể mua).
-- Hack Speed (Không khuyến nghị dùng):
-  - Tăng tốc trong game – có thể bị ban, nên chỉ dùng "cho vui".
+## 🔧 Tính Năng Chính (3.5)
 
-🛠️ Phiên bản 3.0
-----------------------------------------
-🔧 Nâng cấp:
-- Giao diện:
-  - Chọn loại launcher từ danh sách, không cần nhập tay.
-- Tài khoản:
-  - Hỗ trợ >2 tài khoản trong file cấu hình.
-- Backup cấu hình:
-  - Quay lại chế độ giới hạn 2 tài khoản nếu cần.
+- Viết lại toàn bộ từ AutoIt sang Python
+- Tooltip realtime hiển thị khi dùng Hack Speed
+- Cửa sổ GUI tự động căn giữa màn hình khi mở
+- Tối ưu xử lý bộ nhớ: đọc/ghi trực tiếp bằng `ctypes`, không cần thư viện ngoài
 
-📁 Phiên bản 2.0
-----------------------------------------
-✨ Nâng cao trải nghiệm:
-- Chọn thư mục trò chơi:
-  - Không cần sao chép đường dẫn nữa.
-- Cấu hình tài khoản:
-  - Nhập trực tiếp vào file config, dễ chỉnh sửa.
-- Chọn tài khoản đăng nhập:
-  - Tự động đăng nhập từ danh sách (giới hạn 2 tài khoản).
+---
+## 🔧 Nhược Điểm (3.5)
 
-🔰 Phiên bản 1.0
-----------------------------------------
-🎯 Khởi đầu:
-- Thiết kế thân thiện:
-  - Giao diện dễ sử dụng cho người mới.
-- Tính năng chính:
-  - Nhập đường dẫn 2SGamer.
-  - Chọn loại launcher (V1, V2,...).
-  - Nhập tài khoản/mật khẩu.
-  - Lưu cấu hình, có thể xóa hoặc chỉnh sửa dễ dàng.
+- Tối ưu xử lý bộ nhớ chương trình chưa tốt: Chương trình hiện tại dung lượng quá cao và chiếm Ram của máy người dùng sẽ khác phục trong phiên bản sau 
 
-----------------------------------------
-*Auto Login giúp đơn giản hoá quá trình đăng nhập và tùy biến giao diện cho người dùng 2SGamer.*
-⚠️ Một số tính năng có thể không hoạt động nếu bị fix bởi nhà phát hành game.
+## 📁 Cách Cài Đặt
+
+1. Tải hoặc chạy `AutoLogin.exe` (nếu có bản build).
+2. Ở lần đầu tiên, phần mềm yêu cầu:
+   - Chọn thư mục chứa `ZingSpeedLauncher.exe`
+   - Chọn thư mục 2SGamerQQ (nếu có)
+   - Chọn file `accountlist.txt` chứa danh sách tài khoản (1 dòng ID, 1 dòng password)
+   - Chọn loại launcher (V1 / V2)
+3. Nhấn **Lưu Cấu Hình**
+4. Chạy lại phần mềm và chọn tài khoản để đăng nhập
+
+---
+
+## 🧾 File Cấu Hình
+
+File `setting` gồm:
+```
+D:\2SGamer\ZingSpeedLauncher.exe  
+D:\2SGamerQQ\ZingSpeedLauncher.exe (hoặc N/A)  
+V1 hoặc V2  
+D:\duongdan\accountlist.txt 
+```
+
+File `accountlist.txt` ví dụ:
+```
+user1
+pass1
+user2
+pass2
+...
+```
+
+File `darkmode.txt`:  
+- `1` = Dark Mode  
+- `0` = Light Mode
+
+---
+
+## 🧠 Hotkeys (Khi bật Hack Mode)
+
+| Phím         | Tác dụng                  |
+|--------------|---------------------------|
+| `SPACE`      | Bật hack tốc độ           |
+| `F9`         | Giảm tốc độ               |
+| `F10`        | Tăng tốc độ               |
+| `DELETE`     | Tắt hack tốc độ           |
+
+---
+
+## 📜 Nhật Ký Cập Nhật
+
+### ✅ Auto Login 3.5 (11/06/2025)
+
+- Viết lại toàn bộ phần mềm từ AutoIt sang Python
+- Thêm tooltip hiển thị realtime khi bật Hack Speed
+- Bổ sung icon `.ico` cho cửa sổ giao diện và khi đóng gói `.exe`
+- Căn giữa cửa sổ GUI khi mở chương trình
+- Tối ưu hàm đọc/ghi bộ nhớ bằng `ctypes` (thay vì dùng thư viện ngoài)
+- Hỗ trợ build `.exe` nhẹ hơn bằng cách dùng `UPX` nén thủ công sau build
+- Tối ưu code bằng cách sử dụng các hàm `try/except` để tránh lỗi
+
+### ✅ Auto Login 3.4 (23/12/2024)
+
+- Giao diện mới, hỗ trợ 2SGamerQQ
+- Cho phép người dùng thêm hoặc bỏ 2SGamerQQ
+- Thêm chỉnh tốc độ hack `+`, `.`
+- Thêm chỉnh tốc độ hack `F9`, `F10`
+- Thêm chỉnh tốc độ hack `DELETE`
+- Ấn để tăng tốc độ hack `SPACE`
+
+### ✅ Auto Login 3.3 (20/12/2024)
+
+- Sửa tính năng đăng nhập (tăng tốc độ, bỏ qua update)
+- Bảo mật tài khoản tốt hơn
+- Thêm Update Shop và Nhiều Launcher
+- Thêm tính năng bỏ qua update
+- Thêm tính năng tăng tốc độ hack
+
+### ✅ Auto Login 3.2 (01/12/2024)
+
+- Sửa lỗi nhập UID khi chỉnh FPS
+
+### ✅ Auto Login 3.1 (27/11/2024)
+
+- Thêm Dark Mode và Hack Speed (ẩn)
+- Cải thiện UI chọn tài khoản
+- Thêm tính năng chọn tài khoản
+- Thêm tính năng chọn FPS
+
+### ✅ Auto Login 3.0
+
+- Chọn launcher từ menu thay vì nhập tay
+- Hỗ trợ nhiều tài khoản hơn 2
+- Tùy chọn backup
+- Tùy chọn chọn launcher
+- Tùy chọn chọn tài khoản
+
+### ✅ Auto Login 2.0
+
+- Chọn thư mục game thay vì dán link
+- Config tài khoản qua file TXT
+- Chọn tài khoản từ danh sách
+
+### ✅ Auto Login 1.0
+
+- Giao diện cơ bản
+- Nhập tay launcher, tài khoản
+- Lưu cấu hình vào file
+- Tự động đăng nhập
+
+---
+
+## 📌 Liên Hệ
+
+- Trang chủ: [http://2sgamer.com](http://2sgamer.com)
+- Facebook: [https://www.facebook.com/LeeQiFuong/](https://www.facebook.com/
+- Phát triển bởi: **Yisu**  
+- © 2024–2025 All Rights Reserved.
