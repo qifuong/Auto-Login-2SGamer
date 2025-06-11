@@ -1,4 +1,4 @@
-Hướng Dẫn Cấu Hình Tài Khoản
+Hướng Dẫn Cấu Hình Tài Khoản vào accountlist.txt
 
 Nhập thông tin tài khoản vào file config có sẵn khi đã giải nén ra theo định dạng sau:
 Tài khoản: test123
