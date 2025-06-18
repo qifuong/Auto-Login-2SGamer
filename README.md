@@ -1,26 +1,29 @@
 
-# 🚀 2SGamer Auto Login 3.5
+# 🚀 2SGamer Auto Login 3.6
 
-**Auto Login 3.5** là phần mềm hỗ trợ người dùng đăng nhập nhanh vào game ZingSpeed thông qua launcher 2SGamer hoặc 2SGamerQQ.  
-Đây là phiên bản **chuyển hoàn toàn từ AutoIt sang Python**, với giao diện thân thiện và hiệu năng tốt hơn, cùng nhiều tính năng nâng cấp như auto login, hack speed, chỉnh FPS, dark mode và tự động cấu hình.
+**Auto Login 3.6** là phần mềm hỗ trợ người dùng đăng nhập nhanh vào game ZingSpeed thông qua launcher 2SGamer hoặc 2SGamerQQ.  
+Đây là phiên bản nâng cấp từ 3.5 với nhiều cải tiến đáng giá, bao gồm **tự động cập nhật phiên bản**, **bỏ qua video intro**, và tiếp tục giữ lại các tính năng mạnh mẽ như auto login, hack speed, chỉnh FPS, dark mode và tự động cấu hình.
 
-> 📅 **Phát hành ngày:** 11/06/2025  
+> 📅 **Phát hành ngày:** 18/06/2025  
 > 🛠️ **Ngôn ngữ:** Python  
 > 🌙 **Dark Mode:** Hỗ trợ chuyển sáng/tối
 
 ---
 
-## 🔧 Tính Năng Chính (3.5)
+## 🔧 Tính Năng Chính (3.6)
 
-- Viết lại toàn bộ từ AutoIt sang Python
-- Tooltip realtime hiển thị khi dùng Hack Speed
-- Cửa sổ GUI tự động căn giữa màn hình khi mở
-- Tối ưu xử lý bộ nhớ: đọc/ghi trực tiếp bằng `ctypes`, không cần thư viện ngoài
+- Nâng cấp từ AutoIt sang Python (từ phiên bản 3.5) với hiệu suất cải thiện rõ rệt
+- **Bỏ qua video intro** khi vào game, tăng tốc độ truy cập sảnh
+- **Tự động bỏ qua cập nhật của launcher**, vào game nhanh chóng hơn
+- **Tự động cập nhật phiên bản** mới khi có (Auto Update)
+- Giao diện được **căn giữa màn hình** khi khởi động
+- Tối ưu truy cập bộ nhớ bằng `ctypes`, **không cần thư viện ngoài**
 
 ---
-## 🔧 Nhược Điểm (3.5)
 
-- Tối ưu xử lý bộ nhớ chương trình chưa tốt: Chương trình hiện tại dung lượng quá cao và chiếm Ram của máy người dùng sẽ khác phục trong phiên bản sau 
+## 🔧 Nhược Điểm (3.6)
+
+- Dung lượng chương trình vẫn còn cao do tích hợp nhiều tính năng, sẽ tiếp tục được tối ưu thêm ở các bản sau
 
 ## 📁 Cách Cài Đặt
 
@@ -72,6 +75,15 @@ File `darkmode.txt`:
 ---
 
 ## 📜 Nhật Ký Cập Nhật
+
+### ✅ Auto Login 3.6 (18/06/2025)
+
+- **Bỏ qua video intro** khi vào sảnh game, tăng tốc độ truy cập (không cần dùng phím `ESC`, tránh lỗi không mong muốn)
+- Thêm **chức năng cập nhật phiên bản tự động** (Auto Update):
+  - Tự động kiểm tra và tải bản mới nhất nếu có
+  - Hiển thị thông báo chi tiết về bản cập nhật mới
+- **Tự động bỏ qua cập nhật của launcher**, giúp vào game nhanh hơn
+- Cải thiện trải nghiệm người dùng và tối ưu giao diện tổng thể
 
 ### ✅ Auto Login 3.5 (11/06/2025)
 
@@ -136,7 +148,7 @@ File `darkmode.txt`:
 
 ## 📌 Liên Hệ
 
-- Trang chủ: [http://2sgamer.com](http://2sgamer.com)
-- Facebook: [https://www.facebook.com/LeeQiFuong/](https://www.facebook.com/
+- Trang chủ: [http://2sgamer.com]
+- Facebook: [https://www.facebook.com/LeeQiFuong/]
 - Phát triển bởi: **Yisu**  
 - © 2024–2025 All Rights Reserved.
